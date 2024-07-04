@@ -5,20 +5,20 @@ import java.util.List;
 
 public class ListaTarefa {
     // atributo
-    private Lista <tarefa> tarefaLista;
+    private Lista <'tarefa'> tarefaLista;
 
     public ListaTarefa() {
-        this.tarefaList =  new Arraylist<>();
+        this.tarefaLista =  new Arraylist<>();
     }
     public void adicionarTarefa(String descricao) {
         tarefaLista.add(new.tarefa(descricao));
     }
 
     public void removerTarefa(String descricao){
-        List<tarefa> tarefasParaRemover = new ArrayList();
+        List<tarefa> tarefaParaRemover = new ArrayList();
         for(tarefa t : tarefaLista) {
             if(t.getdescricao().equalsIgnoreCase(descricao)){
-                tarefasParaRemover.add(t);
+                tarefaParaRemover.add(t);
             }
 
         }
